@@ -9,7 +9,6 @@ document.write ("<br>multiplicação: "+ (a*b));
 document.write ("<br>Divisão: "+(a/b)   );
 document.write ("<br>Módulo: "+(a%b)   );
 document.write ("<br>Exponenciação: "+(a**b)   );
-
 /*
 Divisão /
 Resto %
