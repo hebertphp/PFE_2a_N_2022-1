@@ -6,8 +6,8 @@ res=(a!==b);//true
 document.write("res = "+res);
 /*
 =      recebe ou atribui
-==     igual 
+==     igual 10=="10"  True
 ===    identico 
-!=     não igual
+!=     não igual 10!="10"  false
 !==    não identico
 */
