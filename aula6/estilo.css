@@ -1,0 +1,12 @@
+#dv1,.teste{
+    width: 50%;
+    height: 100px;
+    background-color: whitesmoke;
+    margin: 5px auto;
+}
+#dv1{
+    border:1px solid blue;
+}
+.teste{
+    border:1px solid red;
+}
