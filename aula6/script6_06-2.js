@@ -1,5 +1,5 @@
 var i;
-document.querySelector(".teste").innerHTML="&#9193";
+// document.querySelector(".teste").innerHTML="&#9193";
 for(i=9193;i<9211;i++){
     document.querySelector("#dv1").innerHTML+="&#"+i+" ";
 }
@@ -15,4 +15,8 @@ De: 9800 até:9811
 Mostrar o Emoji e o signo("string")
 Criar um array com os signos
 */
-document.querySelector(".teste").innerHTML="&#9800 - Áries";
+// document.querySelector(".teste").innerHTML="&#9800 - "+signo[0];
+var signo=["Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem", "Libra", "Escorpião", "Sagitário", "Capricórnio", "Aquario","Peixes"];
+for(var j=0;j<signo.length;j++){
+    document.querySelector(".teste").innerHTML+="&#"+(9800+j)+" - "+signo[j]+"<br>";
+}
