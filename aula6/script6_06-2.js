@@ -20,3 +20,9 @@ var signo=["Áries", "Touro", "Gêmeos", "Câncer", "Leão", "Virgem", "Libra", 
 for(var j=0;j<signo.length;j++){
     document.querySelector(".teste").innerHTML+="&#"+(9800+j)+" - "+signo[j]+"<br>";
 }
+//        0       1           2        3
+var nome=["João","Guilherme","Wesley","Hebert"];
+// document.write(nome[nome.length-1]);//
+for(k=0;k<nome.length;k++){
+    document.write(nome[k]+"<br>");
+}
