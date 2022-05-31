@@ -18,3 +18,4 @@ var junta_tudo=novas_notas.concat(outras_notas);
 // document.write(junta_tudo+"<hr>");// direcionar para id="nome"
 id_nome.value=junta_tudo;
 var conteudo=id_nome.value;
+// document.querySelector("#cep").value="Algo!";
