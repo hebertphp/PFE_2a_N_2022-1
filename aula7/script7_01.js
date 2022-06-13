@@ -1,5 +1,10 @@
+/* -----------------------------------------
+function boas_vindas()
+Objetivo: Enviar mensagem de boas vindas
+Data de criação: 16/05/2021
+Autor: Nome do autor
+-------------------------------------------- */
 function boas_vindas() {
-    const saida=document.querySelector("#saida");
-    saida.innerHTML="Seja Bem vindo!"; 
-}    
+    document.write("Seja bem vindo!");
+}
 boas_vindas();
